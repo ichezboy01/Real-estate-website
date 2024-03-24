@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ichagaki Boys High School</title>
+  <style>
+    /* Add your CSS styles here */
+    body {
+      background-color: #a1dbaa; /* Green color */
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="Downloads/ic.jpeg" alt="Ichagaki Boys High School Logo">
+    <nav>
+      <ul>
+        <li><a href="#about-us">About Us</a></li>
+        <li><a href="#academics">Academics</a></li>
+        <li><a href="#contact-us">Contact Us</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="about-us">
+    <h2>About Ichagaki Boys High School</h2>
+    <p>
+      Ichagaki Boys High School is an extra county school located in Murang'a County, Kenya. Established in 1963, it is one of the best-performing schools in the county. Notable alumni include the CEO of Equity Bank. The school is led by Principal Paul Thangwa, deputized by Gachanja. With over 40 teaching personnel and more than 750 students, our motto is "Education Empowers."
+    </p>
+    <p>
+      Our mission is to provide holistic education where students can study without consideration of race, tribe, or religion. Our teachers maintain personal contact with their students, creating an enabling study environment. Ichagaki Boys High School is committed to being corruption-free.
+    </p>
+  </section>
+
+  <section id="academics">
+    <h2>Academics</h2>
+    <h3>Assignment Upload</h3>
+    <form action="#" method="post" enctype="multipart/form-data">
+      <label for="class">Select Form:</label>
+      <select name="class" id="class">
+        <option value="form1">Form 1</option>
+        <option value="form2">Form 2</option>
+        <option value="form3">Form 3</option>
+        <option value="form4">Form 4</option>
+      </select>
+      <label for="file">Choose File:</label>
+      <input type="file" name="file" id="file">
+      <input type="submit" value="Upload">
+    </form>
+    <!-- Display uploaded assignments -->
+    <h3>Download Assignments</h3>
+    <ul>
+      <li><a href="c:\Users\pc\Downloads\RISK AND RETURN (2).docx">Assignment for Form 1</a></li>
+      <li><a href="c:\Users\pc\Downloads\BFI 220-SOURCES OF FINANCE.doc">Assignment for Form 2</a></li>
+      <li><a href="c:\Users\pc\Downloads\BUSINESS FINANCE NOTES.pdf">Assignment for Form 3</a></li>
+      <li><a href="c:\Users\pc\Downloads\Evolution of Banking.docx">Assignment for Form 4</a></li>
+    </ul>
+  </section>
+
+  <section id="contact-us">
+    <h2>Contact Us</h2>
+    <p>Contact Numbers: 0734256782</p>
+    <p>Email: <a href="mailto:ichagakiboys@gmail.com">ichagakiboys@gmail.com</a></p>
+  </section>
+
+  <section id="facilities">
+    <h2>Facilities and Co-curricular Activities</h2>
+    <p>Explore our facilities and co-curricular activities in our magazine:</p>
+    <a href="uploads/magazine.pdf" target="_blank">View Magazine</a>
+  </section>
+
+  <footer>
+    <p>&copy; 2024 Ichagaki Boys High School</p>
+  </footer>
+</body>
+</html>
